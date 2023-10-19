@@ -1,0 +1,29 @@
+[0.052s] Invoking command in '/home/leo/TFG_Proyect/build/aws_robomaker_small_warehouse_world': /usr/bin/cmake /home/leo/TFG_Proyect/src/ros2_ws/src/aws-robomaker-small-warehouse-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leo/TFG_Proyect/install/aws_robomaker_small_warehouse_world
+[0.057s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.057s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.057s]   CMake.
+[0.057s] 
+[0.058s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.058s]   CMake that the project does not need compatibility with older versions.
+[0.058s] 
+[0.058s] [0m
+[0.068s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.068s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.068s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.068s]   CMake did not find one.
+[0.068s] 
+[0.068s]   Could not find a package configuration file provided by "catkin" with any
+[0.068s]   of the following names:
+[0.068s] 
+[0.068s]     catkinConfig.cmake
+[0.068s]     catkin-config.cmake
+[0.068s] 
+[0.068s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.068s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.068s]   provides a separate development package or SDK, be sure it has been
+[0.068s]   installed.
+[0.068s] 
+[0.068s] [0m
+[0.068s] -- Configuring incomplete, errors occurred!
+[0.068s] See also "/home/leo/TFG_Proyect/build/aws_robomaker_small_warehouse_world/CMakeFiles/CMakeOutput.log".
+[0.069s] Invoked command in '/home/leo/TFG_Proyect/build/aws_robomaker_small_warehouse_world' returned '1': /usr/bin/cmake /home/leo/TFG_Proyect/src/ros2_ws/src/aws-robomaker-small-warehouse-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leo/TFG_Proyect/install/aws_robomaker_small_warehouse_world

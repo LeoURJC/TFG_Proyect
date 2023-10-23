@@ -9,6 +9,7 @@
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/warehouse.launch.py
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/map.launch.py
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
@@ -68,6 +69,7 @@
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/warehouseV9.world
+/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/warehouseV15.world
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/warehouseV13.world
 /home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world

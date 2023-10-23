@@ -1,0 +1,823 @@
+[0.715s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.715s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1ba08664d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1ba1963d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1ba1963d30>>)
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.749s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leo/TFG_Proyect'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'ignore'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'ignore_ament_install'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['colcon_pkg']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'colcon_pkg'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['colcon_meta']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'ros'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['cmake', 'python']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'cmake'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'python'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extensions ['python_setup_py']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws) by extension 'python_setup_py'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/build) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/build) ignored
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/install) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/install) ignored
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/log) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/log) ignored
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extensions ['colcon_meta']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'colcon_meta'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extensions ['ros']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'ros'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extensions ['cmake', 'python']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'cmake'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'python'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extensions ['python_setup_py']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src) by extension 'python_setup_py'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'cmake'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'python'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extensions ['python_setup_py']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds) by extension 'python_setup_py'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'colcon_pkg'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'cmake'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'python'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extensions ['python_setup_py']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes) by extension 'python_setup_py'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'colcon_pkg'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/materials/textures) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/meshes) by extension 'python_setup_py'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'ros'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extensions ['cmake', 'python']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'cmake'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes/thumbnails) by extension 'python_setup_py'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'ros'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extensions ['cmake', 'python']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'cmake'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/materials/textures) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extensions ['cmake', 'python']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/meshes) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extensions ['cmake', 'python']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Boxes2/thumbnails) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extensions ['ros']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'ros'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extensions ['cmake', 'python']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'cmake'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extensions ['ros']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'ros'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extensions ['cmake', 'python']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'cmake'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'cmake'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'python'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extensions ['python_setup_py']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/materials/textures) by extension 'python_setup_py'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'cmake'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'python'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extensions ['python_setup_py']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/meshes) by extension 'python_setup_py'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extensions ['cmake', 'python']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'cmake'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'python'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extensions ['python_setup_py']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/Pallet_Jack_Machine/thumbnails) by extension 'python_setup_py'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'ros'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extensions ['cmake', 'python']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'cmake'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'python'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extensions ['python_setup_py']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes) by extension 'python_setup_py'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'ros'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extensions ['cmake', 'python']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/materials/textures) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/meshes) by extension 'python_setup_py'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'ros'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extensions ['cmake', 'python']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'cmake'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'python'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extensions ['python_setup_py']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/StandBoxes/thumbnails) by extension 'python_setup_py'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'ros'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extensions ['cmake', 'python']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'cmake'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'python'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extensions ['python_setup_py']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1) by extension 'python_setup_py'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'cmake'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'python'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extensions ['python_setup_py']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/meshes) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'cmake'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'python'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extensions ['python_setup_py']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/TrolleyBox1/thumbnails) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'ignore_ament_install'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'ros'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extensions ['cmake', 'python']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'cmake'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'python'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extensions ['python_setup_py']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet) by extension 'python_setup_py'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'ignore_ament_install'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'ros'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extensions ['cmake', 'python']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'cmake'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'python'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extensions ['python_setup_py']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/meshes) by extension 'python_setup_py'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extensions ['colcon_pkg']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'colcon_pkg'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extensions ['colcon_meta']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'colcon_meta'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extensions ['ros']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'ros'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet/thumbnails) by extension 'python_setup_py'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extensions ['colcon_pkg']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'colcon_pkg'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extensions ['colcon_meta']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'colcon_meta'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extensions ['ros']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'ros'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile) by extension 'python_setup_py'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'ros'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extensions ['cmake', 'python']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'cmake'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'python'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extensions ['python_setup_py']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/meshes) by extension 'python_setup_py'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'ros'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extensions ['cmake', 'python']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'cmake'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'python'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extensions ['python_setup_py']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/pallet_box_mobile/thumbnails) by extension 'python_setup_py'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'ros'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extensions ['cmake', 'python']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'cmake'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'python'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extensions ['python_setup_py']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf) by extension 'python_setup_py'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'ros'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extensions ['cmake', 'python']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'cmake'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'python'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extensions ['python_setup_py']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/meshes) by extension 'python_setup_py'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'ros'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extensions ['cmake', 'python']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'python'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extensions ['python_setup_py']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf/thumbnails) by extension 'python_setup_py'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'ros'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extensions ['cmake', 'python']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'python'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extensions ['python_setup_py']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big) by extension 'python_setup_py'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'ros'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extensions ['cmake', 'python']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'python'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/meshes) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'ros'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extensions ['cmake', 'python']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'cmake'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'python'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/gazebo_worlds/shelf_big/thumbnails) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'ros'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'cmake'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'python'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.781s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.871s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/leo/TFG_Proyect/install
+[0.881s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/leo/ros2_ws/install
+[0.892s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/TFG_Proyect/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/TFG_Proyect/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.985s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/TFG_Proyect/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/TFG_Proyect/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.995s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/TFG_Proyect/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/TFG_Proyect/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[1.006s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[1.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[1.028s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.072s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[1.073s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[1.084s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/TFG_Proyect/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --build /home/leo/TFG_Proyect/build/turtlebot3_fake_node -- -j8 -l8
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/TFG_Proyect/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --build /home/leo/TFG_Proyect/build/turtlebot3_gazebo -- -j8 -l8
+[1.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/TFG_Proyect/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --build /home/leo/TFG_Proyect/build/turtlebot3_fake_node -- -j8 -l8
+[1.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/TFG_Proyect/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --build /home/leo/TFG_Proyect/build/turtlebot3_gazebo -- -j8 -l8
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/TFG_Proyect/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --install /home/leo/TFG_Proyect/build/turtlebot3_fake_node
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/TFG_Proyect/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --install /home/leo/TFG_Proyect/build/turtlebot3_fake_node
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node' for CMake module files
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node' for CMake config files
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/lib'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/bin'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/TFG_Proyect/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --install /home/leo/TFG_Proyect/build/turtlebot3_gazebo
+[1.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/TFG_Proyect/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --install /home/leo/TFG_Proyect/build/turtlebot3_gazebo
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo' for CMake module files
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo' for CMake config files
+[1.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/lib'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/bin'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node' for CMake module files
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node' for CMake config files
+[1.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/lib'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/bin'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/TFG_Proyect/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo' for CMake module files
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo' for CMake config files
+[1.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/lib'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/bin'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/bin'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/TFG_Proyect/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[1.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/TFG_Proyect/src/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations'
+[1.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/TFG_Proyect/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/leo/TFG_Proyect/install/turtlebot3_gazebo:/home/leo/TFG_Proyect/install/turtlebot3_fake_node:/home/leo/TFG_Proyect/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_gazebo:/home/leo/ros2_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --build /home/leo/TFG_Proyect/build/turtlebot3_simulations -- -j8 -l8
+[1.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/TFG_Proyect/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/leo/TFG_Proyect/install/turtlebot3_gazebo:/home/leo/TFG_Proyect/install/turtlebot3_fake_node:/home/leo/TFG_Proyect/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_gazebo:/home/leo/ros2_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --build /home/leo/TFG_Proyect/build/turtlebot3_simulations -- -j8 -l8
+[1.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/TFG_Proyect/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/leo/TFG_Proyect/install/turtlebot3_gazebo:/home/leo/TFG_Proyect/install/turtlebot3_fake_node:/home/leo/TFG_Proyect/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_gazebo:/home/leo/ros2_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --install /home/leo/TFG_Proyect/build/turtlebot3_simulations
+[1.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/TFG_Proyect/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/leo/TFG_Proyect/install/turtlebot3_gazebo:/home/leo/TFG_Proyect/install/turtlebot3_fake_node:/home/leo/TFG_Proyect/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_simulations:/home/leo/ros2_ws/install/turtlebot3_gazebo:/home/leo/ros2_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/examples_pkg:/opt/ros/humble /usr/bin/cmake --install /home/leo/TFG_Proyect/build/turtlebot3_simulations
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations' for CMake module files
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations' for CMake config files
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/bin'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations' for CMake module files
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations' for CMake config files
+[1.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/bin'
+[1.608s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.608s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[1.608s] Level 1:colcon.colcon_core.environment:checking '/home/leo/TFG_Proyect/install/turtlebot3_simulations/bin'
+[1.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/TFG_Proyect/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.621s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.645s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/TFG_Proyect/install/local_setup.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leo/TFG_Proyect/install/_local_setup_util_ps1.py'
+[1.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/TFG_Proyect/install/setup.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/TFG_Proyect/install/local_setup.sh'
+[1.672s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leo/TFG_Proyect/install/_local_setup_util_sh.py'
+[1.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/TFG_Proyect/install/setup.sh'
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/TFG_Proyect/install/local_setup.bash'
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/TFG_Proyect/install/setup.bash'
+[1.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/TFG_Proyect/install/local_setup.zsh'
+[1.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/TFG_Proyect/install/setup.zsh'

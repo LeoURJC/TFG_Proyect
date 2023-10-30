@@ -1,2 +1,0 @@
-Invoking command in '/home/leo/TFG_Proyect/build/warehouse_simulation': /usr/bin/cmake /home/leo/TFG_Proyect/src/ros2_ws/src/warehouse_simulation_toolkit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leo/TFG_Proyect/install/warehouse_simulation
-Invoked command in '/home/leo/TFG_Proyect/build/warehouse_simulation' returned '1': /usr/bin/cmake /home/leo/TFG_Proyect/src/ros2_ws/src/warehouse_simulation_toolkit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leo/TFG_Proyect/install/warehouse_simulation

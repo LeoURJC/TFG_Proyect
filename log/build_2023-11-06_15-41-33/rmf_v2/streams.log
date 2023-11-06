@@ -1,0 +1,35 @@
+[0.699s] Invoking command in '/home/leo/TFG_Proyect/src/rmf_v2': PYTHONPATH=/home/leo/TFG_Proyect/build/rmf_v2/prefix_override:/home/leo/TFG_Proyect/install/rmf_v2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rmf_v2 build --build-base /home/leo/TFG_Proyect/build/rmf_v2/build install --record /home/leo/TFG_Proyect/build/rmf_v2/install.log --single-version-externally-managed
+[0.898s] running egg_info
+[0.898s] creating ../../build/rmf_v2/rmf_v2.egg-info
+[0.898s] writing ../../build/rmf_v2/rmf_v2.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../build/rmf_v2/rmf_v2.egg-info/dependency_links.txt
+[0.898s] writing entry points to ../../build/rmf_v2/rmf_v2.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../build/rmf_v2/rmf_v2.egg-info/requires.txt
+[0.898s] writing top-level names to ../../build/rmf_v2/rmf_v2.egg-info/top_level.txt
+[0.898s] writing manifest file '../../build/rmf_v2/rmf_v2.egg-info/SOURCES.txt'
+[0.900s] reading manifest file '../../build/rmf_v2/rmf_v2.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/rmf_v2/rmf_v2.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] creating /home/leo/TFG_Proyect/build/rmf_v2/build
+[0.900s] creating /home/leo/TFG_Proyect/build/rmf_v2/build/lib
+[0.900s] creating /home/leo/TFG_Proyect/build/rmf_v2/build/lib/rmf_v2
+[0.900s] copying rmf_v2/__init__.py -> /home/leo/TFG_Proyect/build/rmf_v2/build/lib/rmf_v2
+[0.900s] running install
+[0.900s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.901s]   warnings.warn(
+[0.901s] running install_lib
+[0.901s] creating /home/leo/TFG_Proyect/install/rmf_v2/lib/python3.10/site-packages/rmf_v2
+[0.901s] copying /home/leo/TFG_Proyect/build/rmf_v2/build/lib/rmf_v2/__init__.py -> /home/leo/TFG_Proyect/install/rmf_v2/lib/python3.10/site-packages/rmf_v2
+[0.902s] byte-compiling /home/leo/TFG_Proyect/install/rmf_v2/lib/python3.10/site-packages/rmf_v2/__init__.py to __init__.cpython-310.pyc
+[0.902s] running install_data
+[0.902s] creating /home/leo/TFG_Proyect/install/rmf_v2/share/ament_index
+[0.902s] creating /home/leo/TFG_Proyect/install/rmf_v2/share/ament_index/resource_index
+[0.902s] creating /home/leo/TFG_Proyect/install/rmf_v2/share/ament_index/resource_index/packages
+[0.902s] copying resource/rmf_v2 -> /home/leo/TFG_Proyect/install/rmf_v2/share/ament_index/resource_index/packages
+[0.902s] copying package.xml -> /home/leo/TFG_Proyect/install/rmf_v2/share/rmf_v2
+[0.902s] running install_egg_info
+[0.903s] Copying ../../build/rmf_v2/rmf_v2.egg-info to /home/leo/TFG_Proyect/install/rmf_v2/lib/python3.10/site-packages/rmf_v2-0.0.0-py3.10.egg-info
+[0.904s] running install_scripts
+[0.920s] writing list of installed files to '/home/leo/TFG_Proyect/build/rmf_v2/install.log'
+[0.937s] Invoked command in '/home/leo/TFG_Proyect/src/rmf_v2' returned '0': PYTHONPATH=/home/leo/TFG_Proyect/build/rmf_v2/prefix_override:/home/leo/TFG_Proyect/install/rmf_v2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rmf_v2 build --build-base /home/leo/TFG_Proyect/build/rmf_v2/build install --record /home/leo/TFG_Proyect/build/rmf_v2/install.log --single-version-externally-managed
